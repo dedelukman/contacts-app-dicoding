@@ -27,7 +27,7 @@ class ContactApp extends React.Component{
                 contacts : [
                     ...prevState.contacts,
                     {
-                        id: +new Date,
+                        id: +new Date(),
                         name,
                         tag,
                         imageUrl: './images/default.jpg'
